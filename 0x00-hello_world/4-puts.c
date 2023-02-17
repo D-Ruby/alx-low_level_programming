@@ -1,6 +1,6 @@
-#include <stdio.h
+#Include < stdio.h
 /**
- * main - This is a program that displays a line using the function puts
+ * main - This is a program that prints a line using the function puts
  * Return: 0 (Success)
  */
 int main(void)
