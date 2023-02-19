@@ -2,20 +2,22 @@
 #include <stdlib.h>
 /**
  * main - Print all single number of base 10
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
-	int c = 0;
+	int n;
 
-	while (c < 10)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(48 + c);
-		if (c != 9)
+		putchar(n);
+		if (n != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		c++;
+		n++;
 	}
+	putchar('\n');
+	return (0);
 }
