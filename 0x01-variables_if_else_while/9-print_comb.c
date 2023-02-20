@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - Print all single number of base 10
  * Return: Always 0
@@ -16,8 +16,6 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		n++;
-	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
